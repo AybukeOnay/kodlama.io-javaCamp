@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/classes/classes.iml" filepath="$PROJECT_DIR$/classes/classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classesWithAttributes/classesWithAttributes.iml" filepath="$PROJECT_DIR$/classesWithAttributes/classesWithAttributes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/day2 - homework2.iml" filepath="$PROJECT_DIR$/.idea/day2 - homework2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methods/methods.iml" filepath="$PROJECT_DIR$/methods/methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recapDemos/recapDemos.iml" filepath="$PROJECT_DIR$/recapDemos/recapDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/variableAndReferenceTypes/variableAndReferenceTypes.iml" filepath="$PROJECT_DIR$/variableAndReferenceTypes/variableAndReferenceTypes.iml" />
+    </modules>
+  </component>
+</project>
