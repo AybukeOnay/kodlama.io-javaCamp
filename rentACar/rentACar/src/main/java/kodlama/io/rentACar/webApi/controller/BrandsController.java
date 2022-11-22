@@ -1,11 +1,12 @@
 package kodlama.io.rentACar.webApi.controller;
 
 import kodlama.io.rentACar.business.abstracts.BrandService;
+import kodlama.io.rentACar.business.requests.CreateBrandRequest;
+import kodlama.io.rentACar.business.responses.GetAllBrandsResponse;
 import kodlama.io.rentACar.entites.concretes.Brand;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController
@@ -19,8 +20,13 @@ public class BrandsController {
     }
 
     @GetMapping("/getall")
-    public List<Brand> getAll(){
+    public List<GetAllBrandsResponse> getAll(){
         return brandService.getAll();
     }
 
+    @PostMapping("/add")
+    public void add(@RequestBody CreateBrandRequest createBrandRequest){
+        this.brandService.add(createBrandRequest);
+    }
+    
 }
